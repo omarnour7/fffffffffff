@@ -1,0 +1,91 @@
+[EmailJS](https://www.emailjs.com/)
+[Home](https://www.emailjs.com/)
+[Docs](https://www.emailjs.com/docs/tutorial/overview/)
+[Pricing](https://www.emailjs.com/pricing/)
+[Sign In](https://dashboard.emailjs.com/sign-in)
+[Sign Up Free](https://dashboard.emailjs.com/sign-up)
+[Home](https://www.emailjs.com/)
+[Docs](https://www.emailjs.com/docs/tutorial/overview/)
+[Pricing](https://www.emailjs.com/pricing/)
+[Sign In](https://dashboard.emailjs.com/sign-in)
+[Sign Up Free](https://dashboard.emailjs.com/sign-up)
+
+# Send Email Directly From Your Code
+
+[Create Free Account](https://dashboard.emailjs.com/sign-up)
+
+## How does it work?
+#### Connect your email service
+[Connect Service](https://www.emailjs.com/docs/user-guide/connecting-email-services/)
+
+#### Create email template
+[Create Template](https://www.emailjs.com/docs/user-guide/creating-email-templates/)
+
+#### Send email from your code
+[Install SDK](https://www.emailjs.com/docs/sdk/installation/)
+
+## FAQ
+#### Can I use EmailJS for free?
+We believe comunication is fundamental human rights, so we also provide a free version
+                    of EmailJS service to public. We don't serve ads or sell your email content or history.
+                    EmailJS Free plan is supported by EmailJS paid customers. If you would like to support
+                    our mission, please consider
+                    [upgrading to a paid plans](https://www.emailjs.com/pricing/)
+                    for security and more features.
+
+#### Can't I use services like Sendgrid or Mandrill directly?
+All email services require some sort of authentication to send the emails on your behalf.
+                    That makes it a really bad idea to use them directly from client-side – revealing your
+                    password or your secret keys will allow anyone to send emails on your behalf.
+EmailJS keeps your authentication details on the server-side, and the client-side code
+                    just triggers a predefined email template, similarly to how any
+                    client-server application is working.
+
+#### Does EmailJS expose my account to spam?
+A better way to think of EmailJS in terms of security is not as a service that
+                    allows you to send emails from your code, but rather as a service that allows you
+                    to create a predefined set of emails via the dashboard, and then just trigger the emails
+                    from the code. This is quite similar to how emails are usually sent via a
+                    proprietary server code, and also to the way products
+                    like Intercom or customer.io are working.
+Additionally, we've also developed various tools to prevent abuse – for instance,
+                    we have IP based rate limits to prevent bots from spamming, the whitelist of origin,
+                    and also support reCAPTCHA tests to make sure that a human is sending
+                    the email (although it's up to the developer to turn this feature on).
+
+#### Can I send HTML emails?
+Of course!
+HTML emails are fully supported, and you can create them either using our
+                    visual text editor or by entering the HTML code directly. That said,
+                    most email clients don't fully support all the HTML
+                    and CSS features, so please refer to this
+                    [Campaign Monitor guide  (opens new window)](https://www.campaignmonitor.com/css/)
+                    to learn about the various restrictions.
+
+#### What about plain text emails?
+Our service sends emails as multipart related! This means that emails
+                    contain HTML and plain text. If HTML is not supported or denied,
+                    the text part will be displayed.
+[Ask A Question](https://www.emailjs.com/contact-us/)
+
+### Over 25,000 developers around the world trust EmailJS to send emails
+
+[Get Started](https://dashboard.emailjs.com/sign-up)
+- [@EmailJS_com](https://twitter.com/EmailJS_com)
+- [emailjs-com](https://github.com/emailjs-com)
+[@EmailJS_com](https://twitter.com/EmailJS_com)
+[emailjs-com](https://github.com/emailjs-com)
+- [GDPR](https://www.emailjs.com/legal/data-protection-agreement/)
+- [Privacy](https://www.emailjs.com/legal/privacy-policy/)
+- [HIPAA](https://www.emailjs.com/legal/hipaa/)
+- [Terms](https://www.emailjs.com/legal/terms-of-service/)
+- [FADP](https://www.emailjs.com/legal/nfadp/)
+- [Status](https://status.emailjs.com)
+- [Contact Us](https://www.emailjs.com/contact-us/)
+[GDPR](https://www.emailjs.com/legal/data-protection-agreement/)
+[Privacy](https://www.emailjs.com/legal/privacy-policy/)
+[HIPAA](https://www.emailjs.com/legal/hipaa/)
+[Terms](https://www.emailjs.com/legal/terms-of-service/)
+[FADP](https://www.emailjs.com/legal/nfadp/)
+[Status](https://status.emailjs.com)
+[Contact Us](https://www.emailjs.com/contact-us/)
